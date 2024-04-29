@@ -45,9 +45,9 @@ def main():
     driver.get("http://localhost:3000/")
     rewardTime = 10
     totalRewardTime = 0
-    keywords = ["student", "CSUSB"]
+    keywords = ["active", "workout"]
     tagNames = ["img"]
-    link = ["a"]
+    link = ["h"]
     totalRewardTime += userAction("KEYWORD", driver, rewardTime, keywords)
     totalRewardTime += userAction("IMAGE", driver, rewardTime, tagNames)
     totalRewardTime += userAction("LINK", driver, rewardTime, link)
