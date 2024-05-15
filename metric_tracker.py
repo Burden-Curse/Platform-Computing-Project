@@ -17,7 +17,7 @@ def WritetoCSV(filename : str, metrics : dict):
 mydb = mysql.connector.connect(
     host="localhost",
     user="root",
-    passwd="Gerlie100", #Blank on purpose
+    passwd="", #Blank on purpose
     database="cse4500"
 )
 
